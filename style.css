@@ -1,0 +1,185 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.nav-container{
+  display:flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+  background-color: rgb(83, 90, 88);
+
+}
+.menus{
+  display: flex;
+  list-style:none;
+  color: white;
+  gap: 15px;
+  font-size: 20px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.banner-container{
+  /*important*/
+  height: 100vh;
+  background-image: url("./image/background.jpg"),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*banner info*/
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding-left: 350px;
+}
+
+.title{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.primary{
+  color: red;
+}
+.description{
+  color: white;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+}
+.btn{
+  padding: 12px ;
+  border: none;
+}
+.bg-primary{
+  background-color: red;
+  color: white;
+}
+.service-container{
+  height: 100vh;
+  /*linear gradient use korte chaile ar por gradient-blend-mode overlay kore dite hobe
+  height 100vh mane puro jaiga jure nibe
+  background cover mane backgroud jototuku e hok puro jaiga jure nibe
+  */
+  background-image: url("./image/footer-bg.png"),linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0,0.9));
+
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  /*padding: 10px;*/
+}
+.icons{
+  width: 100px;
+}
+.box{
+  padding: 50px;
+  background-color: white;
+  width: 150px;
+  height: 100px;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+}
+.service-description{
+  width: 50%;
+}
+.first-two-box{
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+.second-two-box{
+  display: flex;
+  gap: 5px;
+  margin-top: 2px;
+}
+.author-img{
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+.author-container{
+  display: flex;
+  gap: 20px;
+  align-items: center;/*duita osoman jinis ke soman kore newar jonno*/
+}
+.profile-container{
+  display: flex;
+  align-items: center;
+  border-right: 2px solid red;
+  padding: 10px;
+}
+h5{
+  padding-left:  10px;
+}
+ol{
+  padding: 10px;
+}
+.bg-details{
+  border-radius: 20px;
+  padding: 15px;
+  font-size: large;
+}
+.phone-call{
+  display: flex;
+  align-items: center;
+  gap: 10px;;
+}
+.appointment-container{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;/*width ar por margin auto dile dui pas theke oto percent chere majhe chole asbe*/
+  padding: 20px;
+  background-color: rgb(204, 71, 71);
+  border-radius: 10px;
+  margin-top: -25px;
+  align-items: center;
+  color: white;
+}
+.blog-title{
+  color: black;
+  text-align: center;
+  margin: 15px;
+}
+.text-title{
+  text-align: center;
+  margin-top: -10px;
+  font-size: larger;
+}
+.card{
+  width: 220px;
+ 
+  /*background-color: yellowgreen;*/
+  box-shadow: 4px 8px 4px gray;
+  border-radius: 5px;
+}
+.blog-container{
+  width: 80%;
+  margin: auto;
+  background-color: gray;
+  padding: 10px;
+}
+.blog-img{
+  width: 100%;
+
+}
+.card-title{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cards{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
